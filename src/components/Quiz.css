@@ -1,75 +1,79 @@
-/* Task 2: 
-Enhance User Experience by adding visual highlights to selected answers
-Hint: You can use the className attribute for highlighting*/
+/* Task 2: Selected answer highlighted with blue background and white text */
 .selected {
-    cursor: pointer; /* Change cursor on hover for interactivity */
-  }
-  
-  /* Additional styling for better user experience */
-  .selected:hover {
-    cursor: pointer;
-  }
-  
-  
-  /* Container styles */
-  div {
-    background-color: #f7f7f7;
-    padding: 20px;
-    border-radius: 10px;
-    text-align: center;
-    max-width: 400px;
-    margin: 0 auto;
-    font-family: Arial, sans-serif;
-  }
-  
-  /* Header styles */
-  h2 {
-    font-size: 24px;
-    margin: 0;
-  }
-  
-  /* Question styles */
-  p {
-    font-size: 18px;
-    margin: 10px 0;
-  }
-  
-  /* Answer Options styles */
-  ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  li {
-    cursor: pointer;
-    font-size: 16px;
-    padding: 8px;
-    margin: 4px 0;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-  }
-  
-  /* Submit button styles */
-  button {
-    background-color: #3498db;
-    color: white;
-    font-size: 18px;
-    border: none;
-    border-radius: 5px;
-    padding: 10px 20px;
-    margin: 10px 10px;
-    cursor: pointer;
-    transition: background-color 0.2s;
-  }
-  
-  button:hover {
-    background-color: #1f77c5;
-  }
-  
-  /* Score styles */
-  p {
-    font-size: 18px;
-    font-weight: bold;
-    margin: 10px 0;
-  }
-  
+  background-color: #3498db !important;
+  color: white !important;
+  border-color: #2176ae !important;
+  cursor: pointer;
+}
+
+.selected:hover {
+  background-color: #2176ae !important;
+  cursor: pointer;
+}
+
+/* Container styles */
+div {
+  background-color: #f7f7f7;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  max-width: 400px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+h2 {
+  font-size: 24px;
+  margin: 0;
+}
+
+/* Question styles */
+p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+/* Answer Options styles */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  cursor: pointer;
+  font-size: 16px;
+  padding: 8px;
+  margin: 4px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+li:hover {
+  background-color: #e8f4fd;
+}
+
+/* Submit button styles */
+button {
+  background-color: #3498db;
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin: 10px 10px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: #1f77c5;
+}
+
+/* Score styles */
+p {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px 0;
+}
