@@ -1,5 +1,5 @@
 import React from 'react'
-import Quiz from './components/Quiz.tsx'
+import Quiz from './components/Quiz'
 
 const App: React.FC = () => {
   return (
@@ -11,4 +11,3 @@ const App: React.FC = () => {
 }
 
 export default App;
-
